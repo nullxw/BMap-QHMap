@@ -41,22 +41,14 @@
             CGSize subTitleSize = [self.subTitle sizeWithAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:11]}];
             float rightBtnWidth=0.0f;
             
-<<<<<<< HEAD
             float cuSscreenWidth = [[UIScreen mainScreen] bounds].size.width-80;
-=======
-            float screenWidth=screenWidth = [[UIScreen mainScreen] bounds].size.width-80;
->>>>>>> master
             
             
             float callWidth=titleSize.width>subTitleSize.width?titleSize.width:subTitleSize.width;
             callWidth=callWidth+40;
             float callHeigh=self.subTitle==nil?nosubHeigh:subheigh;
             
-<<<<<<< HEAD
             callWidth=callWidth>cuSscreenWidth?cuSscreenWidth:callWidth;
-=======
-            callWidth=callWidth>screenWidth?screenWidth:callWidth;
->>>>>>> master
             
             
             if (self.showRigthBtn) {

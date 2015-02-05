@@ -9,10 +9,7 @@
 #import "ListNoResultCell.h"
 #import "MSUtil.h"
 #import "MapCommUtility.h"
-<<<<<<< HEAD
 #import "UIView+QHUiViewCtg.h"
-=======
->>>>>>> master
 @implementation UITableView(ListNoResultCell)
 
 -(ListNoResultCell*)ListNoResultCell{
@@ -81,7 +78,6 @@
             break;
     }
     [iconView setImage:[UIImage imageNamed:icon]];
-<<<<<<< HEAD
     titleLabel.text          = title;
     [titleLabel setSize:CGSizeMake(titleLabel.width+10, titleLabel.height)];
     titleLabel.height=[MSUtil countHeightOfString:title WithWidth:150 Font:[UIFont systemFontOfSize:12]];
@@ -91,17 +87,6 @@
     titleLabel.numberOfLines = 0;
     titleLabel.top           = iconView.bottom+5;
     iconView.centerX         = self.width/2;
-=======
-    titleLabel.text = title;
-    [titleLabel setSize:CGSizeMake(titleLabel.width+10, titleLabel.height)];
-    titleLabel.height=[MSUtil countHeightOfString:title WithWidth:150 Font:[UIFont systemFontOfSize:12]];
-    titleLabel.textAlignment=NSTextAlignmentCenter;
-    titleLabel.centerX=self.width/2;
-    titleLabel.lineBreakMode=NSLineBreakByWordWrapping;
-    titleLabel.numberOfLines=0;
-    titleLabel.top=iconView.bottom+5;
-    iconView.centerX = self.width/2;
->>>>>>> master
 
   
     

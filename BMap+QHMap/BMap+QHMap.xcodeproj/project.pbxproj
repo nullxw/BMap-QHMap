@@ -38,10 +38,7 @@
 		EC44D9B61A68E5C80086755B /* ic_tip_noresult@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC44D9B31A68E5C80086755B /* ic_tip_noresult@2x.png */; };
 		EC44D9B71A68E5C80086755B /* ic_tip_noresult@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC44D9B41A68E5C80086755B /* ic_tip_noresult@3x.png */; };
 		EC44D9BA1A68E7380086755B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC44D9B91A68E7380086755B /* HomeViewController.m */; };
-<<<<<<< HEAD
 		EC56E6841A831B3200AE0441 /* splitbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC56E6831A831B3200AE0441 /* splitbg@2x.png */; };
-=======
->>>>>>> master
 		EC72BC791A67AFF900A4FA9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC72BC781A67AFF900A4FA9D /* main.m */; };
 		EC72BC7C1A67AFF900A4FA9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC72BC7B1A67AFF900A4FA9D /* AppDelegate.m */; };
 		EC72BC821A67AFF900A4FA9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC72BC801A67AFF900A4FA9D /* Main.storyboard */; };
@@ -146,10 +143,7 @@
 		EC44D9B41A68E5C80086755B /* ic_tip_noresult@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_tip_noresult@3x.png"; sourceTree = "<group>"; };
 		EC44D9B81A68E7380086755B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		EC44D9B91A68E7380086755B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		EC56E6831A831B3200AE0441 /* splitbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splitbg@2x.png"; sourceTree = "<group>"; };
-=======
->>>>>>> master
 		EC72BC731A67AFF900A4FA9D /* BMap+QHMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMap+QHMap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC72BC771A67AFF900A4FA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC72BC781A67AFF900A4FA9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -397,10 +391,7 @@
 		EC72BCC11A67BA5A00A4FA9D /* mapImages */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				EC56E6831A831B3200AE0441 /* splitbg@2x.png */,
-=======
->>>>>>> master
 				EC44D9B21A68E5C80086755B /* ic_tip_noresult.png */,
 				EC44D9B31A68E5C80086755B /* ic_tip_noresult@2x.png */,
 				EC44D9B41A68E5C80086755B /* ic_tip_noresult@3x.png */,
@@ -594,10 +585,7 @@
 				EC72BD011A67BA5A00A4FA9D /* pos_car@2x.png in Resources */,
 				EC72BCFD1A67BA5A00A4FA9D /* myLocation@2x.png in Resources */,
 				EC44D9981A68DAAF0086755B /* ic_lcoation_persons@2x.png in Resources */,
-<<<<<<< HEAD
 				EC56E6841A831B3200AE0441 /* splitbg@2x.png in Resources */,
-=======
->>>>>>> master
 				EC72BCEA1A67BA5A00A4FA9D /* btnCar_choose@2x.png in Resources */,
 				EC72BC821A67AFF900A4FA9D /* Main.storyboard in Resources */,
 				EC44D99D1A68DAAF0086755B /* ic_location_bar@3x.png in Resources */,

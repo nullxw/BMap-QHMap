@@ -9,23 +9,15 @@
 #import <UIKit/UIKit.h>
 #import "CAdefine.h"
 #import "BaseMapViewController.h"
-<<<<<<< HEAD
 #import "MapSearchViewController.h"
-=======
-
->>>>>>> master
 @interface LargeMapViewController :BaseMapViewController
 {
     @protected
     @private
     BMKMapView*mapView;
     NSMutableArray * annotations;
-<<<<<<< HEAD
     MapSearchViewInfo *curMapSearchViewInfo;
     
-=======
-    NSDictionary*curJumpInfo;
->>>>>>> master
 }
 
 /**

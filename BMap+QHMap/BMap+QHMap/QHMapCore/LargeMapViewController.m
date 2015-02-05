@@ -9,11 +9,7 @@
 #import "LargeMapViewController.h"
 #import "DDAnnotation.h"
 #import "MapCommUtility.h"
-<<<<<<< HEAD
 
-=======
-#import "MapSearchViewController.h"
->>>>>>> master
 
 @interface LargeMapViewController()<BMKMapViewDelegate>
 
@@ -35,14 +31,9 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 -(void)initMapView{
-<<<<<<< HEAD
     mapView=[[BMKMapView alloc] initWithFrame:CGRectMake(0, 0, screenWidth, screenHeight+22)];
     mapView.delegate=self;
     MSLog(@"%f,,,,%f",screenWidth,screenHeight);
-=======
-    mapView=[[BMKMapView alloc] initWithFrame:CGRectMake(0, 0, screenWidth, screenheight+22)];
-    mapView.delegate=self;
->>>>>>> master
     [mapView setCenterCoordinate:CLLocationCoordinate2DMake(30, 120) animated:YES];
     [self.view addSubview:mapView];
 }
@@ -142,11 +133,7 @@
         if(![ann.title isEqualToString:@"我的位置"]){//如果点击的不是自己的位置 callOut
             
             [self cleanGoHereView];
-<<<<<<< HEAD
              curMapSearchViewInfo = [MapSearchViewInfo mapSearchViewInfoMakeWithName:ann.subtitle?ann.subtitle:ann.title andLocation:ann.coordinate andIsFromCell:YES andRemarkInfo:nil];
-=======
-            curJumpInfo=@{@"location":[CustomMapLocation customLocationMakeWithCLL:ann.coordinate],@"title":ann.title,@"address":ann.subtitle!=nil?ann.subtitle:ann.title};
->>>>>>> master
             
             [self.view addSubview:[self getGoHereViewWithTitle:ann.title andSubTitle:ann.subtitle!=nil?ann.subtitle:@"" andLocation:ann.coordinate]];
         }
@@ -200,11 +187,7 @@
 
 -(void)junpToMapView{
     MapSearchViewController *mapSearhView=[[MapSearchViewController alloc] init];
-<<<<<<< HEAD
     mapSearhView.mapSearchViewInfo=curMapSearchViewInfo;
-=======
-    mapSearhView.info=curJumpInfo;
->>>>>>> master
     [self.navigationController pushViewController:mapSearhView animated:YES];
 }
 

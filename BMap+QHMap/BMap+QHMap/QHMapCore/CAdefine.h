@@ -27,12 +27,9 @@
 #define isIOS7                      [[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0
 #define isIOS6                      [[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0
 
-<<<<<<< HEAD
 #define screenWidth    [[UIScreen mainScreen] bounds].size.width
 #define screenHeight    [[UIScreen mainScreen] bounds].size.height-20
 
-=======
->>>>>>> master
 
 #define CAVerson 1.0.0
 #define CAWayCount (INT_MAX)
