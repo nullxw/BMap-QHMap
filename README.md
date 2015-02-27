@@ -1,5 +1,5 @@
 # BMap-QHMap
-## 第三方类库用pod管理的,所以请用.xcworkspace而非.xcodeproj打开项目
+## 第三方类库用pod管理的,需用.xcworkspace
 	• 主要是对百度地图的封装,接口简单,几行代码实现地图常用功能
 	• 功能介绍
 		○ 地图点标注
